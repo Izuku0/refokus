@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className='basis-1/2'>
                 <h1 className='mb-10 text-zinc-500 capitalize'>socials</h1>
-                {["instagram","twitter (x?)","Linkedin"].map((item,index)=><a className='block mt-2 capitalize text-zinc-600 '>{item}</a>)}
+                {["instagram","twitter (x?)","Linkedin"].map((item,index)=><a key={index} className='block mt-2 capitalize text-zinc-600 '>{item}</a>)}
             </div>
             <div className='basis-1/2 flex flex-col items-end'>
                 <p className='text-right'>Refokus is pioneering digital agency driven by design and

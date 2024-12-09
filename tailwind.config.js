@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+       fontFamily: {
+      Sathoshi: ['Satoshi', 'sans-serif'], // Use 'custom' as your class name
+    },
+  },
   },
   plugins: [],
 }
